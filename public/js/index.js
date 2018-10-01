@@ -12,4 +12,9 @@ socket.on('disconnect', function()  {
 
 socket.on('newMessage', function(message){
   console.log('New Message', message);
+
+});
+
+socket.on('welcomeMessage', function(message){
+  console.log('welcomeMessage', message);
 });
